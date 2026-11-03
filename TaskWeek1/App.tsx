@@ -19,8 +19,8 @@ export default function App() {
         value={age}
         onChangeText={setage}
         />
-      <Text>Lower limit: {limitLower.toFixed(0)} bpm</Text>
-      <Text>Upper limit: {limitHigher.toFixed(0)} bpm</Text>
+      <Text>Lower limit: {limitLower.toFixed(2)} bpm</Text>
+      <Text>Upper limit: {limitHigher.toFixed(2)} bpm</Text>
       <StatusBar style="auto" />
     </View>
   );
