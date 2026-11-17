@@ -9,9 +9,6 @@ export default function CustomNavigationBar({
   options,
   back,
 }: NativeStackHeaderProps) {
-  const [visible, setVisible] = React.useState(false);
-  const openMenu = () => setVisible(true);
-  const closeMenu = () => setVisible(false);
   
   const title = getHeaderTitle(options, route.name);
   return (
